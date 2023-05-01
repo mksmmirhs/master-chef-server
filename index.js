@@ -14,7 +14,11 @@ app.get('/', (req, res) => {
 app.get('/data', (req, res) => {
   res.send(data);
 });
-
+app.get('/data/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const chef = data.find(cf => cf.id === id);
+  res.send(chef);
+});
 app.listen(port, () => {
   console.log(`Api is running on port: ${port}`);
 });
