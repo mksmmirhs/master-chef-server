@@ -1,0 +1,236 @@
+[
+  {
+    "chef_picture": "https://images.unsplash.com/photo-1654922207993-2952fec328ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "chef_name": "John Smith",
+    "years_of_experience": 10,
+    "num_of_recipes": 50,
+    "likes": 5000,
+    "short_bio": "John Smith is an experienced chef who specializes in Italian cuisine.",
+    "recipes": [
+      {
+        "recipe_name": "Spaghetti Bolognese",
+        "ingredients": ["pasta", "ground beef", "tomatoes", "onion", "garlic"],
+        "instructions": "Cook the pasta. Brown the beef. Add the onions and garlic. Add the tomatoes. Simmer for 20 minutes. Serve over the pasta.",
+        "rating": 4.5
+      },
+      {
+        "recipe_name": "Margherita Pizza",
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "fresh basil",
+          "coffee"
+        ],
+        "instructions": "Roll out the dough. Spread the tomato sauce. Add the cheese. Bake in the oven. Top with fresh basil.",
+        "rating": 4.3
+      },
+      {
+        "recipe_name": "Tiramisu",
+        "ingredients": [
+          "ladyfingers",
+          "mascarpone cheese",
+          "eggs",
+          "sugar",
+          "coffee"
+        ],
+        "instructions": "Dip the ladyfingers in coffee. Layer with the mascarpone mixture. Refrigerate for a few hours. Serve chilled.",
+        "rating": 4.7
+      }
+    ],
+    "id": 1
+  },
+  {
+    "chef_picture": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=677&q=80",
+    "chef_name": "Maria Garcia",
+    "years_of_experience": 7,
+    "num_of_recipes": 30,
+    "likes": 2500,
+    "short_bio": "Maria Garcia is a Mexican chef who is known for her delicious tacos and salsas.",
+    "recipes": [
+      {
+        "recipe_name": "Carne Asada Tacos",
+        "ingredients": [
+          "flank steak",
+          "corn tortillas",
+          "cilantro",
+          "onion",
+          "lime"
+        ],
+        "instructions": "Grill the steak. Warm the tortillas. Assemble the tacos with the steak, cilantro, onion, and lime.",
+        "rating": 3.7
+      },
+      {
+        "recipe_name": "Salsa Verde",
+        "ingredients": [
+          "tomatillos",
+          "jalapeno peppers",
+          "onion",
+          "garlic",
+          "cilantro"
+        ],
+        "instructions": "Roast the tomatillos and peppers. Blend with the onion, garlic, and cilantro. Season with salt.",
+        "rating": 4.4
+      },
+      {
+        "recipe_name": "Guacamole",
+        "ingredients": [
+          "avocado",
+          "tomato",
+          "onion",
+          "jalapeno pepper",
+          "lime"
+        ],
+        "instructions": "Mash the avocado. Add the tomato, onion, pepper, and lime. Season with salt.",
+        "rating": 5
+      }
+    ],
+    "id": 2
+  },
+  {
+    "chef_picture": "https://plus.unsplash.com/premium_photo-1661778021952-65997d03b2b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "chef_name": "Julia Lee",
+    "years_of_experience": 8,
+    "num_of_recipes": 40,
+    "likes": 3500,
+    "short_bio": "Julia Lee is a Korean-American chef who specializes in fusion cuisine.",
+    "recipes": [
+      {
+        "recipe_name": "Korean Fried Chicken",
+        "ingredients": [
+          "chicken wings",
+          "flour",
+          "cornstarch",
+          "garlic powder",
+          "soy sauce"
+        ],
+        "instructions": "Mix the flour, cornstarch, and garlic powder. Coat the chicken wings. Fry until golden brown. Toss with soy sauce.",
+        "rating": 3.4
+      },
+      {
+        "recipe_name": "Spicy Tuna Poke Bowl",
+        "ingredients": [
+          "sushi rice",
+          "tuna",
+          "avocado",
+          "cucumber",
+          "spicy mayo"
+        ],
+        "instructions": "Cook the sushi rice. Cube the tuna and avocado. Slice the cucumber. Mix with spicy mayo. Serve over the rice.",
+        "rating": 4.6
+      },
+      {
+        "recipe_name": "Kimchi Fried Rice",
+        "ingredients": ["cooked rice", "kimchi", "bacon", "eggs", "soy sauce"],
+        "instructions": "Chop the bacon. Fry until crispy. Add the kimchi. Stir in the rice. Make a well and crack in the eggs. Mix until cooked. Drizzle with soy sauce.",
+        "rating": 4.2
+      }
+    ],
+    "id": 3
+  },
+  {
+    "chef_picture": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "chef_name": "Alexandra Brown",
+    "years_of_experience": 12,
+    "num_of_recipes": 70,
+    "likes": 6000,
+    "short_bio": "Alexandra Brown is a French chef who has worked in Michelin-starred restaurants around the world.",
+    "recipes": [
+      {
+        "recipe_name": "Beef Bourguignon",
+        "ingredients": ["beef chuck", "carrots", "onion", "garlic", "red wine"],
+        "instructions": "Brown the beef. Add the vegetables. Pour in the wine. Simmer for several hours. Serve with crusty bread.",
+        "rating": 3.4
+      },
+      {
+        "recipe_name": "Coq au Vin",
+        "ingredients": [
+          "chicken thighs",
+          "bacon",
+          "mushrooms",
+          "pearl onions",
+          "red wine"
+        ],
+        "instructions": "Brown the chicken and bacon. Add the vegetables. Pour in the wine. Simmer for an hour. Serve with mashed potatoes.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Chocolate Souffle",
+        "ingredients": ["butter", "flour", "milk", "chocolate", "eggs"],
+        "instructions": "Melt the butter and flour. Add the milk. Stir in the chocolate. Beat the egg whites. Fold in the chocolate mixture. Bake in ramekins.",
+        "Rating": 4.4
+      }
+    ],
+    "id": 4
+  },
+  {
+    "chef_picture": "https://plus.unsplash.com/premium_photo-1661778091956-15dbe6e47442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "chef_name": "Maria Sanchez",
+    "years_of_experience": 10,
+    "num_of_recipes": 60,
+    "likes": 4500,
+    "short_bio": "Maria Sanchez is a Mexican chef who specializes in traditional and modern Mexican cuisine.",
+    "recipes": [
+      {
+        "recipe_name": "Guacamole",
+        "ingredients": ["avocado", "tomato", "onion", "jalapeno", "lime"],
+        "instructions": "Mash the avocado. Dice the tomato and onion. Mince the jalapeno. Mix all the ingredients. Squeeze in the lime juice. Season with salt.",
+        "rating": 4.3
+      },
+      {
+        "recipe_name": "Chiles Rellenos",
+        "ingredients": [
+          "poblano peppers",
+          "ground beef",
+          "onion",
+          "garlic",
+          "tomato sauce"
+        ],
+        "instructions": "Roast the peppers. Brown the beef. Add the onion and garlic. Stuff the peppers with the beef mixture. Pour over the tomato sauce. Bake in the oven.",
+        "rating": 3.4
+      },
+      {
+        "recipe_name": "Tres Leches Cake",
+        "ingredients": ["flour", "sugar", "eggs", "milk", "vanilla"],
+        "instructions": "Mix the flour, sugar, and eggs. Bake the cake. Mix the milk and vanilla. Pour over the cake. Let it soak for a few hours. Serve chilled.",
+        "rating": 4.6
+      }
+    ],
+    "id": 5
+  },
+  {
+    "chef_picture": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "chef_name": "Hiroshi Yamamoto",
+    "years_of_experience": 15,
+    "num_of_recipes": 80,
+    "likes": 7000,
+    "short_bio": "Hiroshi Yamamoto is a Japanese chef who has worked in top restaurants in Tokyo and New York.",
+    "recipes": [
+      {
+        "recipe_name": "Ramen",
+        "ingredients": [
+          "noodles",
+          "pork belly",
+          "egg",
+          "bamboo shoots",
+          "scallions"
+        ],
+        "instructions": "Boil the noodles. Cook the pork belly. Boil the egg. Slice the bamboo shoots. Arrange in a bowl. Pour over the broth. Top with scallions.",
+        "rating": 3.7
+      },
+      {
+        "recipe_name": "Sushi",
+        "ingredients": ["sushi rice", "tuna", "salmon", "shrimp", "avocado"],
+        "instructions": "Cook the sushi rice. Slice the fish and shrimp. Cube the avocado. Roll the sushi. Serve with soy sauce and wasabi.",
+        "rating": 3.8
+      },
+      {
+        "recipe_name": "Tempura",
+        "ingredients": ["shrimp", "vegetables", "flour", "ice water", "oil"],
+        "instructions": "Make the batter with flour and ice water. Dip the shrimp and vegetables. Fry in hot oil. Serve with tempura sauce.",
+        "rating": 4.9
+      }
+    ],
+    "id": 6
+  }
+]
