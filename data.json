@@ -1,236 +1,426 @@
 [
   {
-    "chef_picture": "https://images.unsplash.com/photo-1654922207993-2952fec328ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-    "chef_name": "John Smith",
+    "id": 1,
+    "chef_picture": "https://st.depositphotos.com/1518767/4293/i/950/depositphotos_42930411-stock-photo-concentrated-male-chef-garnishing-food.jpg",
+    "chef_name": "Kim Chul-Soo",
     "years_of_experience": 10,
     "num_of_recipes": 50,
-    "likes": 5000,
-    "short_bio": "John Smith is an experienced chef who specializes in Italian cuisine.",
+    "likes": 1000,
+    "short_bio": "I'm Chef Kim Chul-Soo who studied in France for 10 years.",
     "recipes": [
       {
-        "recipe_name": "Spaghetti Bolognese",
-        "ingredients": ["pasta", "ground beef", "tomatoes", "onion", "garlic"],
-        "instructions": "Cook the pasta. Brown the beef. Add the onions and garlic. Add the tomatoes. Simmer for 20 minutes. Serve over the pasta.",
+        "name": "Kimchi Stew",
+        "description": "A traditional Korean stew made with kimchi.",
+        "ingredients": ["kimchi", "tofu", "pork", "water", "garlic"],
+        "directions": [
+          "1. Boil water in a pot.",
+          "2. Add kimchi and pork and boil for 10 minutes.",
+          "3. Add tofu and boil for another 5 minutes."
+        ],
         "rating": 4.5
       },
       {
-        "recipe_name": "Margherita Pizza",
+        "name": "Bulgogi",
+        "description": "One of the most representative meat dishes in Korea.",
         "ingredients": [
-          "pizza dough",
-          "tomato sauce",
-          "mozzarella cheese",
-          "fresh basil",
-          "coffee"
-        ],
-        "instructions": "Roll out the dough. Spread the tomato sauce. Add the cheese. Bake in the oven. Top with fresh basil.",
-        "rating": 4.3
-      },
-      {
-        "recipe_name": "Tiramisu",
-        "ingredients": [
-          "ladyfingers",
-          "mascarpone cheese",
-          "eggs",
-          "sugar",
-          "coffee"
-        ],
-        "instructions": "Dip the ladyfingers in coffee. Layer with the mascarpone mixture. Refrigerate for a few hours. Serve chilled.",
-        "rating": 4.7
-      }
-    ],
-    "id": 1
-  },
-  {
-    "chef_picture": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=677&q=80",
-    "chef_name": "Maria Garcia",
-    "years_of_experience": 7,
-    "num_of_recipes": 30,
-    "likes": 2500,
-    "short_bio": "Maria Garcia is a Mexican chef who is known for her delicious tacos and salsas.",
-    "recipes": [
-      {
-        "recipe_name": "Carne Asada Tacos",
-        "ingredients": [
-          "flank steak",
-          "corn tortillas",
-          "cilantro",
-          "onion",
-          "lime"
-        ],
-        "instructions": "Grill the steak. Warm the tortillas. Assemble the tacos with the steak, cilantro, onion, and lime.",
-        "rating": 3.7
-      },
-      {
-        "recipe_name": "Salsa Verde",
-        "ingredients": [
-          "tomatillos",
-          "jalapeno peppers",
+          "beef",
           "onion",
           "garlic",
-          "cilantro"
+          "soy sauce",
+          "sugar",
+          "gochujang"
         ],
-        "instructions": "Roast the tomatillos and peppers. Blend with the onion, garlic, and cilantro. Season with salt.",
-        "rating": 4.4
-      },
-      {
-        "recipe_name": "Guacamole",
-        "ingredients": [
-          "avocado",
-          "tomato",
-          "onion",
-          "jalapeno pepper",
-          "lime"
+        "directions": [
+          "1. Marinate sliced beef in a mixture of soy sauce, sugar, and minced garlic.",
+          "2. Stir-fry marinated beef with sliced onion.",
+          "3. Add gochujang and stir-fry for a few more minutes."
         ],
-        "instructions": "Mash the avocado. Add the tomato, onion, pepper, and lime. Season with salt.",
-        "rating": 5
-      }
-    ],
-    "id": 2
-  },
-  {
-    "chef_picture": "https://plus.unsplash.com/premium_photo-1661778021952-65997d03b2b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "chef_name": "Julia Lee",
-    "years_of_experience": 8,
-    "num_of_recipes": 40,
-    "likes": 3500,
-    "short_bio": "Julia Lee is a Korean-American chef who specializes in fusion cuisine.",
-    "recipes": [
-      {
-        "recipe_name": "Korean Fried Chicken",
-        "ingredients": [
-          "chicken wings",
-          "flour",
-          "cornstarch",
-          "garlic powder",
-          "soy sauce"
-        ],
-        "instructions": "Mix the flour, cornstarch, and garlic powder. Coat the chicken wings. Fry until golden brown. Toss with soy sauce.",
-        "rating": 3.4
-      },
-      {
-        "recipe_name": "Spicy Tuna Poke Bowl",
-        "ingredients": [
-          "sushi rice",
-          "tuna",
-          "avocado",
-          "cucumber",
-          "spicy mayo"
-        ],
-        "instructions": "Cook the sushi rice. Cube the tuna and avocado. Slice the cucumber. Mix with spicy mayo. Serve over the rice.",
-        "rating": 4.6
-      },
-      {
-        "recipe_name": "Kimchi Fried Rice",
-        "ingredients": ["cooked rice", "kimchi", "bacon", "eggs", "soy sauce"],
-        "instructions": "Chop the bacon. Fry until crispy. Add the kimchi. Stir in the rice. Make a well and crack in the eggs. Mix until cooked. Drizzle with soy sauce.",
-        "rating": 4.2
-      }
-    ],
-    "id": 3
-  },
-  {
-    "chef_picture": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "chef_name": "Alexandra Brown",
-    "years_of_experience": 12,
-    "num_of_recipes": 70,
-    "likes": 6000,
-    "short_bio": "Alexandra Brown is a French chef who has worked in Michelin-starred restaurants around the world.",
-    "recipes": [
-      {
-        "recipe_name": "Beef Bourguignon",
-        "ingredients": ["beef chuck", "carrots", "onion", "garlic", "red wine"],
-        "instructions": "Brown the beef. Add the vegetables. Pour in the wine. Simmer for several hours. Serve with crusty bread.",
-        "rating": 3.4
-      },
-      {
-        "recipe_name": "Coq au Vin",
-        "ingredients": [
-          "chicken thighs",
-          "bacon",
-          "mushrooms",
-          "pearl onions",
-          "red wine"
-        ],
-        "instructions": "Brown the chicken and bacon. Add the vegetables. Pour in the wine. Simmer for an hour. Serve with mashed potatoes.",
         "rating": 4.8
       },
       {
-        "recipe_name": "Chocolate Souffle",
-        "ingredients": ["butter", "flour", "milk", "chocolate", "eggs"],
-        "instructions": "Melt the butter and flour. Add the milk. Stir in the chocolate. Beat the egg whites. Fold in the chocolate mixture. Bake in ramekins.",
-        "Rating": 4.4
+        "name": "Japchae",
+        "description": "A Korean stir-fried noodle dish with vegetables.",
+        "ingredients": [
+          "sweet potato noodles",
+          "spinach",
+          "carrot",
+          "onion",
+          "shiitake mushrooms",
+          "beef",
+          "soy sauce",
+          "sesame oil"
+        ],
+        "directions": [
+          "1. Boil sweet potato noodles in water until soft.",
+          "2. Stir-fry sliced beef with sliced vegetables.",
+          "3. Mix cooked noodles and stir-fried vegetables together and add soy sauce and sesame oil."
+        ],
+        "rating": 4.2
       }
-    ],
-    "id": 4
+    ]
   },
   {
-    "chef_picture": "https://plus.unsplash.com/premium_photo-1661778091956-15dbe6e47442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-    "chef_name": "Maria Sanchez",
-    "years_of_experience": 10,
-    "num_of_recipes": 60,
-    "likes": 4500,
-    "short_bio": "Maria Sanchez is a Mexican chef who specializes in traditional and modern Mexican cuisine.",
+    "id": 2,
+    "chef_picture": "https://st3.depositphotos.com/12039478/16200/i/450/depositphotos_162009844-stock-photo-cooking.jpg",
+    "chef_name": "Jung-Hwa Kim",
+    "years_of_experience": 15,
+    "num_of_recipes": 70,
+    "likes": 1500,
+    "short_bio": "I'm Chef Jung-Hwa Kim, and I specialize in traditional Korean dishes made with locally sourced ingredients.",
     "recipes": [
       {
-        "recipe_name": "Guacamole",
-        "ingredients": ["avocado", "tomato", "onion", "jalapeno", "lime"],
-        "instructions": "Mash the avocado. Dice the tomato and onion. Mince the jalapeno. Mix all the ingredients. Squeeze in the lime juice. Season with salt.",
+        "name": "Galbi-jjim",
+        "description": "A Korean braised short ribs dish.",
+        "ingredients": [
+          "short ribs",
+          "onion",
+          "garlic",
+          "soy sauce",
+          "sugar",
+          "rice wine",
+          "ginger",
+          "chestnuts"
+        ],
+        "directions": [
+          "1. Marinate short ribs in a mixture of soy sauce, sugar, rice wine, and minced garlic and ginger for at least 1 hour.",
+          "2. Sauté sliced onion in a pot.",
+          "3. Add the marinated short ribs, chestnuts, and water.",
+          "4. Cook over low heat for about 2 hours until the meat is tender and the sauce is thickened."
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "Kimchi Fried Rice",
+        "description": "A quick and easy Korean fried rice dish made with kimchi.",
+        "ingredients": [
+          "cooked rice",
+          "kimchi",
+          "bacon",
+          "egg",
+          "soy sauce",
+          "sesame oil",
+          "green onion"
+        ],
+        "directions": [
+          "1. Sauté chopped bacon in a pan.",
+          "2. Add chopped kimchi and cooked rice to the pan and stir-fry for a few minutes.",
+          "3. Push the fried rice to one side of the pan and scramble an egg on the other side.",
+          "4. Mix everything together and add soy sauce, sesame oil, and sliced green onion."
+        ],
         "rating": 4.3
       },
       {
-        "recipe_name": "Chiles Rellenos",
+        "name": "Dak-galbi",
+        "description": "A spicy Korean chicken dish made with gochujang and vegetables.",
         "ingredients": [
-          "poblano peppers",
-          "ground beef",
+          "chicken breast",
+          "cabbage",
+          "sweet potato",
           "onion",
+          "gochujang",
+          "soy sauce",
+          "sugar",
           "garlic",
-          "tomato sauce"
+          "rice cake"
         ],
-        "instructions": "Roast the peppers. Brown the beef. Add the onion and garlic. Stuff the peppers with the beef mixture. Pour over the tomato sauce. Bake in the oven.",
-        "rating": 3.4
-      },
-      {
-        "recipe_name": "Tres Leches Cake",
-        "ingredients": ["flour", "sugar", "eggs", "milk", "vanilla"],
-        "instructions": "Mix the flour, sugar, and eggs. Bake the cake. Mix the milk and vanilla. Pour over the cake. Let it soak for a few hours. Serve chilled.",
+        "directions": [
+          "1. Marinate sliced chicken breast in a mixture of gochujang, soy sauce, sugar, and minced garlic for at least 30 minutes.",
+          "2. Stir-fry marinated chicken with sliced cabbage, sweet potato, and onion.",
+          "3. Add sliced rice cake and stir-fry for a few more minutes until everything is cooked through."
+        ],
         "rating": 4.6
       }
-    ],
-    "id": 5
+    ]
   },
   {
-    "chef_picture": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-    "chef_name": "Hiroshi Yamamoto",
+    "id": 3,
+    "chef_picture": "https://thumbs.dreamstime.com/b/concentrated-female-chef-garnishing-food-kitchen-side-view-39222434.jpg",
+    "chef_name": "Kim Min-ji",
     "years_of_experience": 15,
-    "num_of_recipes": 80,
-    "likes": 7000,
-    "short_bio": "Hiroshi Yamamoto is a Japanese chef who has worked in top restaurants in Tokyo and New York.",
+    "num_of_recipes": 50,
+    "likes": 10000,
+    "short_bio": "Kim Min-ji is a Korean chef who has been trained in both traditional and modern Korean cuisine.",
     "recipes": [
       {
-        "recipe_name": "Ramen",
+        "name": "Bibimbap",
+        "description": "A Korean dish of mixed rice with vegetables, meat, and egg, served with spicy gochujang sauce.",
         "ingredients": [
-          "noodles",
-          "pork belly",
+          "rice",
+          "beef",
+          "spinach",
+          "bean sprouts",
+          "carrots",
+          "zucchini",
+          "mushrooms",
           "egg",
-          "bamboo shoots",
-          "scallions"
+          "gochujang sauce"
         ],
-        "instructions": "Boil the noodles. Cook the pork belly. Boil the egg. Slice the bamboo shoots. Arrange in a bowl. Pour over the broth. Top with scallions.",
-        "rating": 3.7
+        "directions": [
+          "1. Cook rice and set aside.",
+          "2. Saute beef with garlic and soy sauce until cooked through.",
+          "3. Blanch spinach, bean sprouts, carrots, and zucchini in boiling water.",
+          "4. Fry an egg sunny-side up.",
+          "5. Arrange the cooked ingredients on top of the rice in a bowl.",
+          "6. Serve with gochujang sauce on the side."
+        ],
+        "rating": 4.8
       },
       {
-        "recipe_name": "Sushi",
-        "ingredients": ["sushi rice", "tuna", "salmon", "shrimp", "avocado"],
-        "instructions": "Cook the sushi rice. Slice the fish and shrimp. Cube the avocado. Roll the sushi. Serve with soy sauce and wasabi.",
-        "rating": 3.8
+        "name": "Japchae",
+        "description": "A Korean noodle dish made with sweet potato starch noodles, vegetables, and beef.",
+        "ingredients": [
+          "sweet potato starch noodles",
+          "beef",
+          "spinach",
+          "carrots",
+          "onion",
+          "mushrooms",
+          "soy sauce",
+          "sesame oil"
+        ],
+        "directions": [
+          "1. Cook noodles in boiling water until tender.",
+          "2. Saute beef with garlic, soy sauce, and sesame oil until cooked through.",
+          "3. Saute spinach, carrots, onion, and mushrooms until tender.",
+          "4. Mix cooked noodles, beef, and vegetables together.",
+          "5. Serve hot or cold."
+        ],
+        "rating": 4.6
       },
       {
-        "recipe_name": "Tempura",
-        "ingredients": ["shrimp", "vegetables", "flour", "ice water", "oil"],
-        "instructions": "Make the batter with flour and ice water. Dip the shrimp and vegetables. Fry in hot oil. Serve with tempura sauce.",
-        "rating": 4.9
+        "name": "Kimchi Fried Rice",
+        "description": "A Korean dish of fried rice with kimchi, vegetables, and egg.",
+        "ingredients": [
+          "rice",
+          "kimchi",
+          "carrots",
+          "onion",
+          "garlic",
+          "green onions",
+          "eggs"
+        ],
+        "directions": [
+          "1. Cook rice and set aside.",
+          "2. Saute kimchi, carrots, onion, and garlic in a pan.",
+          "3. Add rice and stir-fry until heated through.",
+          "4. Push rice to one side of the pan and crack an egg on the other side.",
+          "5. Scramble the egg and mix with the rice.",
+          "6. Garnish with chopped green onions and serve."
+        ],
+        "rating": 4.5
       }
-    ],
-    "id": 6
+    ]
+  },
+  {
+    "id": 4,
+    "chef_picture": "https://media.istockphoto.com/id/1298088270/photo/young-beautiful-smiling-woman-chef-with-arms-crossed-at-kitchen.jpg?s=2048x2048&w=is&k=20&c=v1b_VOF7bUPMN6UV4G-6zOW-dXt89kWO02dM5vrN1MQ=",
+    "chef_name": "Ji-hye Kim",
+    "years_of_experience": 8,
+    "num_of_recipes": 70,
+    "likes": 1200,
+    "short_bio": "I'm Chef Ji-hye Kim who studied in France for 8 years.",
+    "recipes": [
+      {
+        "name": "Kimchi Stew",
+        "description": "A traditional Korean stew made with kimchi.",
+        "ingredients": ["kimchi", "tofu", "pork", "water", "garlic"],
+        "directions": [
+          "1. Boil water in a pot.",
+          "2. Add kimchi and pork and boil for 10 minutes.",
+          "3. Add tofu and boil for another 5 minutes."
+        ],
+        "rating": 4.5
+      },
+      {
+        "name": "Bulgogi",
+        "description": "One of the most representative meat dishes in Korea.",
+        "ingredients": [
+          "beef",
+          "onion",
+          "garlic",
+          "soy sauce",
+          "sugar",
+          "gochujang"
+        ],
+        "directions": [
+          "1. Marinate sliced beef in a mixture of soy sauce, sugar, and minced garlic.",
+          "2. Stir-fry marinated beef with sliced onion.",
+          "3. Add gochujang and stir-fry for a few more minutes."
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "Japchae",
+        "description": "A Korean stir-fried noodle dish with vegetables.",
+        "ingredients": [
+          "sweet potato noodles",
+          "spinach",
+          "carrot",
+          "onion",
+          "shiitake mushrooms",
+          "beef",
+          "soy sauce",
+          "sesame oil"
+        ],
+        "directions": [
+          "1. Boil sweet potato noodles in water until soft.",
+          "2. Stir-fry sliced beef with sliced vegetables.",
+          "3. Mix cooked noodles and stir-fried vegetables together and add soy sauce and sesame oil."
+        ],
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "chef_picture": "https://media.istockphoto.com/id/1252338682/photo/female-chef-is-preparing-a-flamb%C3%A9-specialty.jpg?s=2048x2048&w=is&k=20&c=w5XMK_53D02CAdkq4aZ2lRFKhDjvTZ5xwtxbEgXsDrQ=",
+    "chef_name": "Min-joon Lee",
+    "years_of_experience": 13,
+    "num_of_recipes": 80,
+    "likes": 1700,
+    "short_bio": "I'm Chef Min-joon Lee, and I specialize in traditional Korean dishes made with locally sourced ingredients.",
+    "recipes": [
+      {
+        "name": "Galbi-jjim",
+        "description": "A Korean braised short ribs dish.",
+        "ingredients": [
+          "short ribs",
+          "onion",
+          "garlic",
+          "soy sauce",
+          "sugar",
+          "rice wine",
+          "ginger",
+          "chestnuts"
+        ],
+        "directions": [
+          "1. Marinate short ribs in a mixture of soy sauce, sugar, rice wine, and minced garlic and ginger for at least 1 hour.",
+          "2. Sauté sliced onion in a pot.",
+          "3. Add the marinated short ribs, chestnuts, and water.",
+          "4. Cook over low heat for about 2 hours until the meat is tender and the sauce is thickened."
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "Kimchi Fried Rice",
+        "description": "A quick and easy Korean fried rice dish made with kimchi.",
+        "ingredients": [
+          "cooked rice",
+          "kimchi",
+          "bacon",
+          "egg",
+          "soy sauce",
+          "sesame oil",
+          "green onion"
+        ],
+        "directions": [
+          "1. Sauté chopped bacon in a pan.",
+          "2. Add chopped kimchi and cooked rice to the pan and stir-fry for a few minutes.",
+          "3. Push the fried rice to one side of the pan and scramble an egg on the other side.",
+          "4. Mix everything together and add soy sauce, sesame oil, and sliced green onion."
+        ],
+        "rating": 4.3
+      },
+      {
+        "name": "Dak-galbi",
+        "description": "A spicy Korean chicken dish made with gochujang and vegetables.",
+        "ingredients": [
+          "chicken breast",
+          "cabbage",
+          "sweet potato",
+          "onion",
+          "gochujang",
+          "soy sauce",
+          "sugar",
+          "garlic",
+          "rice cake"
+        ],
+        "directions": [
+          "1. Marinate sliced chicken breast in a mixture of gochujang, soy sauce, sugar, and minced garlic for at least 30 minutes.",
+          "2. Stir-fry marinated chicken with sliced cabbage, sweet potato, and onion.",
+          "3. Add sliced rice cake and stir-fry for a few more minutes until everything is cooked through."
+        ],
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "chef_picture": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg?size=626&ext=jpg&ga=GA1.2.1159589166.1681139378&semt=robertav1_2_sidr",
+    "chef_name": "Soo-ah Park",
+    "years_of_experience": 14,
+    "num_of_recipes": 55,
+    "likes": 19000,
+    "short_bio": "Soo-ah Park is a Korean chef who has been trained in both traditional and modern Korean cuisine.",
+    "recipes": [
+      {
+        "name": "Bibimbap",
+        "description": "A Korean dish of mixed rice with vegetables, meat, and egg, served with spicy gochujang sauce.",
+        "ingredients": [
+          "rice",
+          "beef",
+          "spinach",
+          "bean sprouts",
+          "carrots",
+          "zucchini",
+          "mushrooms",
+          "egg",
+          "gochujang sauce"
+        ],
+        "directions": [
+          "1. Cook rice and set aside.",
+          "2. Saute beef with garlic and soy sauce until cooked through.",
+          "3. Blanch spinach, bean sprouts, carrots, and zucchini in boiling water.",
+          "4. Fry an egg sunny-side up.",
+          "5. Arrange the cooked ingredients on top of the rice in a bowl.",
+          "6. Serve with gochujang sauce on the side."
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "Japchae",
+        "description": "A Korean noodle dish made with sweet potato starch noodles, vegetables, and beef.",
+        "ingredients": [
+          "sweet potato starch noodles",
+          "beef",
+          "spinach",
+          "carrots",
+          "onion",
+          "mushrooms",
+          "soy sauce",
+          "sesame oil"
+        ],
+        "directions": [
+          "1. Cook noodles in boiling water until tender.",
+          "2. Saute beef with garlic, soy sauce, and sesame oil until cooked through.",
+          "3. Saute spinach, carrots, onion, and mushrooms until tender.",
+          "4. Mix cooked noodles, beef, and vegetables together.",
+          "5. Serve hot or cold."
+        ],
+        "rating": 4.6
+      },
+      {
+        "name": "Kimchi Fried Rice",
+        "description": "A Korean dish of fried rice with kimchi, vegetables, and egg.",
+        "ingredients": [
+          "rice",
+          "kimchi",
+          "carrots",
+          "onion",
+          "garlic",
+          "green onions",
+          "eggs"
+        ],
+        "directions": [
+          "1. Cook rice and set aside.",
+          "2. Saute kimchi, carrots, onion, and garlic in a pan.",
+          "3. Add rice and stir-fry until heated through.",
+          "4. Push rice to one side of the pan and crack an egg on the other side.",
+          "5. Scramble the egg and mix with the rice.",
+          "6. Garnish with chopped green onions and serve."
+        ],
+        "rating": 4.5
+      }
+    ]
   }
 ]
